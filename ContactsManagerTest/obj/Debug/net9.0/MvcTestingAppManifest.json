@@ -1,0 +1,8 @@
+{
+  "ContactsManagerWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/ContactsManagerWeb",
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/Entities",
+  "Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/Repositories",
+  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/RepositoryContracts",
+  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/ServiceContracts",
+  "Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/erikal\/RiderProjects\/ContactsManagerWeb\/Services"
+}

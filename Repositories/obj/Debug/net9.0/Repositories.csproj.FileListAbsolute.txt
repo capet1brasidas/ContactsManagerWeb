@@ -1,0 +1,17 @@
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/Repositories.deps.json
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/Repositories.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/Repositories.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/Entities.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/RepositoryContracts.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/Entities.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/bin/Debug/net9.0/RepositoryContracts.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.csproj.AssemblyReference.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.AssemblyInfoInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.AssemblyInfo.cs
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Reposito.787EC4B2.Up2Date
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/refint/Repositories.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/Repositories.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/Debug/net9.0/ref/Repositories.dll

@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/Services/Services.csproj": {}
+  },
+  "projects": {
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj",
+        "packagesPath": "/Users/erikal/.nuget/packages/",
+        "outputPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/Repositories.csproj",
+        "packagesPath": "/Users/erikal/.nuget/packages/",
+        "outputPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj"
+              },
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/RepositoryContracts.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/RepositoryContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/RepositoryContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/RepositoryContracts.csproj",
+        "projectName": "RepositoryContracts",
+        "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/RepositoryContracts.csproj",
+        "packagesPath": "/Users/erikal/.nuget/packages/",
+        "outputPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/RepositoryContracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/ServiceContracts.csproj",
+        "projectName": "ServiceContracts",
+        "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/ServiceContracts.csproj",
+        "packagesPath": "/Users/erikal/.nuget/packages/",
+        "outputPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/erikal/RiderProjects/ContactsManagerWeb/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/erikal/RiderProjects/ContactsManagerWeb/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Services/Services.csproj",
+        "packagesPath": "/Users/erikal/.nuget/packages/",
+        "outputPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/erikal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/Entities.csproj"
+              },
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/Repositories.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/Repositories/Repositories.csproj"
+              },
+              "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/ServiceContracts.csproj": {
+                "projectPath": "/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.1.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "SerilogTimings": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/bin/Debug/net9.0/Entities.deps.json
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/bin/Debug/net9.0/Entities.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/bin/Debug/net9.0/Entities.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.csproj.AssemblyReference.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.AssemblyInfoInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.AssemblyInfo.cs
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.csproj.CoreCompileInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/refint/Entities.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/Entities.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/Entities/obj/Debug/net9.0/ref/Entities.dll

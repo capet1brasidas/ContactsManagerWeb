@@ -1,0 +1,440 @@
+2026-01-04 01:12:52.501 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:12:52.700 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:12:52.701 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:12:52.701 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:12:52.701 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:12:53.091 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:12:53.111 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:12:53.169 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:12:53.251 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:12:53.257 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:12:53.273 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:12:54.128 +11:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:12:54.223 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:12:54.227 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 973.538ms.
+2026-01-04 01:12:54.237 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:12:54.353 +11:00 [INF] Executed ViewResult - view Index executed in 115.8192ms.
+2026-01-04 01:12:54.354 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1184.9546ms
+2026-01-04 01:12:54.355 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:12:54.357 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:12:53 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:12:54.376 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1285.8884ms
+2026-01-04 01:12:57.614 +11:00 [INF] Application is shutting down...
+2026-01-04 01:13:53.862 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:13:54.039 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:13:54.040 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:13:54.040 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:13:54.040 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:13:54.482 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:13:54.552 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:13:54.580 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:13:54.680 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:13:54.688 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:13:54.711 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:13:55.572 +11:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:13:55.667 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:13:55.671 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 987.3117ms.
+2026-01-04 01:13:55.681 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:13:55.792 +11:00 [INF] Executed ViewResult - view Index executed in 111.572ms.
+2026-01-04 01:13:55.793 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1213.5551ms
+2026-01-04 01:13:55.794 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:13:55.796 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:13:55 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:13:55.807 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1326.6139ms
+2026-01-04 01:13:59.733 +11:00 [INF] Application is shutting down...
+2026-01-04 01:15:31.519 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:15:31.713 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:15:31.714 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:15:31.714 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:15:31.714 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:15:32.121 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:15:32.146 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:15:32.171 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:15:32.247 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:15:32.253 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:15:32.267 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:15:33.090 +11:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:15:33.183 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:15:33.189 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 939.176ms.
+2026-01-04 01:15:33.198 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:15:33.325 +11:00 [INF] Executed ViewResult - view Index executed in 127.3879ms.
+2026-01-04 01:15:33.326 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1155.489ms
+2026-01-04 01:15:33.327 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:15:33.329 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:15:32 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:15:33.339 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1219.5925ms
+2026-01-04 01:15:37.225 +11:00 [INF] Application is shutting down...
+2026-01-04 01:18:54.601 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:18:54.785 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:18:54.786 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:18:54.786 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:18:54.786 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:18:55.377 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:18:55.400 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:18:55.419 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:18:55.494 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:18:55.499 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:18:55.518 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:18:56.298 +11:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:18:56.391 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:18:56.396 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 898.8738ms.
+2026-01-04 01:18:56.406 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:18:56.524 +11:00 [INF] Executed ViewResult - view Index executed in 118.6941ms.
+2026-01-04 01:18:56.526 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1106.2359ms
+2026-01-04 01:18:56.526 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:18:56.528 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:18:55 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:18:56.538 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1162.3297ms
+2026-01-04 01:19:59.788 +11:00 [INF] Application is shutting down...
+2026-01-04 01:20:01.584 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:20:01.769 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:20:01.769 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:20:01.770 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:20:01.770 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:20:02.230 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:20:02.260 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:20:02.285 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:20:02.353 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:20:02.355 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:20:02.370 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:20:03.177 +11:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:20:03.242 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:20:03.246 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 890.8088ms.
+2026-01-04 01:20:03.254 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:20:03.357 +11:00 [INF] Executed ViewResult - view Index executed in 103.2541ms.
+2026-01-04 01:20:03.358 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1073.4411ms
+2026-01-04 01:20:03.359 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:20:03.360 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:20:02 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:20:03.370 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1141.8527ms
+2026-01-04 01:20:06.252 +11:00 [INF] Application is shutting down...
+2026-01-04 01:21:33.347 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:21:33.526 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:21:33.527 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:21:33.527 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:21:33.527 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:21:33.984 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:21:34.019 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:21:34.046 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:21:34.165 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:21:34.172 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:21:34.206 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:21:35.113 +11:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:21:35.189 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:21:35.193 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1025.9812ms.
+2026-01-04 01:21:35.202 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:21:35.326 +11:00 [INF] Executed ViewResult - view Index executed in 117.7798ms.
+2026-01-04 01:21:35.333 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1286.9089ms
+2026-01-04 01:21:35.336 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:21:35.338 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:21:34 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:21:35.350 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1367.7895ms
+2026-01-04 01:21:55.143 +11:00 [INF] Application is shutting down...
+2026-01-04 01:23:35.025 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:23:35.218 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:23:35.218 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:23:35.219 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:23:35.219 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:23:35.638 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:23:35.661 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:23:35.684 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:23:35.766 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:23:35.770 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:23:35.785 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:23:36.604 +11:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:23:36.671 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:23:36.675 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 905.9882ms.
+2026-01-04 01:23:36.683 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:23:36.791 +11:00 [INF] Executed ViewResult - view Index executed in 109.0447ms.
+2026-01-04 01:23:36.792 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1108.4844ms
+2026-01-04 01:23:36.793 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:23:36.794 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:23:36 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:23:36.803 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1165.7755ms
+2026-01-04 01:23:43.555 +11:00 [INF] Application is shutting down...
+2026-01-04 01:25:20.523 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:25:20.702 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:25:20.703 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:25:20.703 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:25:20.703 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:25:21.144 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:25:21.183 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:25:21.197 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:25:21.275 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:25:21.280 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:25:21.294 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:25:22.092 +11:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:25:22.158 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:25:22.162 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 884.4444ms.
+2026-01-04 01:25:22.170 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:25:22.278 +11:00 [INF] Executed ViewResult - view Index executed in 107.6765ms.
+2026-01-04 01:25:22.279 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1082.0445ms
+2026-01-04 01:25:22.279 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:25:22.281 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:25:21 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:25:22.291 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1157.2322ms
+2026-01-04 01:25:25.209 +11:00 [INF] Application is shutting down...
+2026-01-04 01:29:55.605 +11:00 [ERR] Hello, Serilog!
+2026-01-04 01:29:55.886 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:29:55.935 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:29:55.936 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:29:55.936 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:29:55.936 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:29:56.291 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:29:56.313 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:29:56.337 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:29:56.418 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:29:56.423 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:29:56.438 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:29:57.266 +11:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:29:57.335 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:29:57.339 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 919.0167ms.
+2026-01-04 01:29:57.348 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:29:57.456 +11:00 [INF] Executed ViewResult - view Index executed in 109.0995ms.
+2026-01-04 01:29:57.457 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1119.2125ms
+2026-01-04 01:29:57.457 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:29:57.459 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:29:56 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:29:57.468 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1178.3245ms
+2026-01-04 01:30:19.274 +11:00 [INF] Application is shutting down...
+2026-01-04 01:33:39.485 +11:00 [ERR] Hello, Serilog!
+2026-01-04 01:33:39.780 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:33:39.823 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:33:39.824 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:33:39.824 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:33:39.824 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:33:40.392 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:33:40.429 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:33:40.446 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:33:40.567 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:33:40.574 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:33:40.605 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:33:41.452 +11:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:33:41.502 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:33:41.506 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 936.9372ms.
+2026-01-04 01:33:41.512 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:33:41.619 +11:00 [INF] Executed ViewResult - view Index executed in 106.7331ms.
+2026-01-04 01:33:41.620 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1174.1277ms
+2026-01-04 01:33:41.621 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:33:41.622 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:33:40 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:33:41.631 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1242.9043ms
+2026-01-04 01:34:02.807 +11:00 [INF] Application is shutting down...
+2026-01-04 01:34:05.233 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:34:05.411 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:34:05.412 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:34:05.412 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:34:05.412 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:34:05.683 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:34:05.721 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:34:05.756 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:34:05.835 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:34:05.838 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:34:05.855 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:34:06.644 +11:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:34:06.695 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:34:06.699 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 862.3895ms.
+2026-01-04 01:34:06.707 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:34:06.824 +11:00 [INF] Executed ViewResult - view Index executed in 117.8552ms.
+2026-01-04 01:34:06.825 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1068.7892ms
+2026-01-04 01:34:06.826 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:34:06.827 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:34:06 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:34:06.836 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1155.4908ms
+2026-01-04 01:47:34.703 +11:00 [INF] Application is shutting down...
+2026-01-04 01:49:54.047 +11:00 [INF] User profile is available. Using '/Users/erikal/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-04 01:49:54.241 +11:00 [INF] Now listening on: http://localhost:5072
+2026-01-04 01:49:54.241 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 01:49:54.242 +11:00 [INF] Hosting environment: Development
+2026-01-04 01:49:54.242 +11:00 [INF] Content root path: /Users/erikal/RiderProjects/ContactsManagerWeb/ContactsManagerWeb
+2026-01-04 01:49:54.580 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2026-01-04 01:49:54.630 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:49:54.650 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:49:54.738 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:49:54.743 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:49:54.773 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:49:55.630 +11:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:49:55.692 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:49:55.696 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 955.6199ms.
+2026-01-04 01:49:55.705 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:49:55.835 +11:00 [INF] Executed ViewResult - view Index executed in 130.8499ms.
+2026-01-04 01:49:55.838 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 1187.42ms
+2026-01-04 01:49:55.840 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:49:55.843 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:49:55 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:49:55.858 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/ - 200 null text/html; charset=utf-8 1280.426ms
+2026-01-04 01:58:07.348 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/Persons/Edit/4d46b07b-6de4-4fa5-bc40-d47029afc2a8 - null null
+2026-01-04 01:58:07.358 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Edit (ContactsManagerWeb)'
+2026-01-04 01:58:07.374 +11:00 [INF] Route matched with {action = "Edit", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Guid) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:58:07.377 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Edit (ContactsManagerWeb) - Validation state: "Valid"
+2026-01-04 01:58:07.505 +11:00 [INF] Executed DbCommand (4ms) [Parameters=[@__personID_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+WHERE p."PersonID" = @__personID_0
+LIMIT 1
+2026-01-04 01:58:07.510 +11:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c."CountryID", c."CountryName"
+FROM "Countries" AS c
+2026-01-04 01:58:07.512 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Edit (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 134.359ms.
+2026-01-04 01:58:07.512 +11:00 [INF] Executing ViewResult, running view Edit.
+2026-01-04 01:58:07.550 +11:00 [INF] Executed ViewResult - view Edit executed in 38.37ms.
+2026-01-04 01:58:07.550 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Edit (ContactsManagerWeb) in 175.9983ms
+2026-01-04 01:58:07.550 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Edit (ContactsManagerWeb)'
+2026-01-04 01:58:07.550 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:58:06 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+2026-01-04 01:58:07.551 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/Persons/Edit/4d46b07b-6de4-4fa5-bc40-d47029afc2a8 - 200 null text/html; charset=utf-8 204.947ms
+2026-01-04 01:58:09.657 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/Persons/Index - null null
+2026-01-04 01:58:09.661 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:58:09.666 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:58:09.674 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:58:09.674 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:58:09.675 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:58:09.719 +11:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:58:09.720 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:58:09.721 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 46.577ms.
+2026-01-04 01:58:09.721 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:58:09.725 +11:00 [INF] Executed ViewResult - view Index executed in 3.732ms.
+2026-01-04 01:58:09.725 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 58.4302ms
+2026-01-04 01:58:09.725 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:58:09.725 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:58:09 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:58:09.726 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/Persons/Index - 200 null text/html; charset=utf-8 68.5657ms
+2026-01-04 01:58:10.240 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/Countries/UploadFromExcel - null null
+2026-01-04 01:58:10.241 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.CountriesController.UploadFromExcel (ContactsManagerWeb)'
+2026-01-04 01:58:10.243 +11:00 [INF] Route matched with {action = "UploadFromExcel", controller = "Countries"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadFromExcel() on controller CRUDExample.Controllers.CountriesController (ContactsManagerWeb).
+2026-01-04 01:58:10.440 +11:00 [INF] Executing action method CRUDExample.Controllers.CountriesController.UploadFromExcel (ContactsManagerWeb) - Validation state: "Valid"
+2026-01-04 01:58:10.441 +11:00 [INF] Executed action method CRUDExample.Controllers.CountriesController.UploadFromExcel (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6637ms.
+2026-01-04 01:58:10.442 +11:00 [INF] Executing ViewResult, running view UploadFromExcel.
+2026-01-04 01:58:10.448 +11:00 [INF] Executed ViewResult - view UploadFromExcel executed in 7.1497ms.
+2026-01-04 01:58:10.448 +11:00 [INF] Executed action CRUDExample.Controllers.CountriesController.UploadFromExcel (ContactsManagerWeb) in 9.2898ms
+2026-01-04 01:58:10.448 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.CountriesController.UploadFromExcel (ContactsManagerWeb)'
+2026-01-04 01:58:10.448 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:58:09 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+2026-01-04 01:58:10.448 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/Countries/UploadFromExcel - 200 null text/html; charset=utf-8 208.0903ms
+2026-01-04 01:58:12.497 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:5072/Persons/Index - null null
+2026-01-04 01:58:12.497 +11:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:58:12.498 +11:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManagerWeb).
+2026-01-04 01:58:12.500 +11:00 [INF] Executing action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) - Validation state: "Invalid"
+2026-01-04 01:58:12.500 +11:00 [INF] Index action method of PersonsController called
+2026-01-04 01:58:12.500 +11:00 [INF] Getting filtered persons of persons services
+2026-01-04 01:58:12.504 +11:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."PersonID", p."Address", p."CountryID", p."DateOfBirth", p."Email", p."Gender", p."PersonName", p."ReceiveNewsLetters", p."TaxIdentificationNumber", c."CountryID", c."CountryName"
+FROM "Persons" AS p
+LEFT JOIN "Countries" AS c ON p."CountryID" = c."CountryID"
+2026-01-04 01:58:12.508 +11:00 [INF] Getting sorted persons of persons services
+2026-01-04 01:58:12.508 +11:00 [INF] Executed action method CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.0915ms.
+2026-01-04 01:58:12.509 +11:00 [INF] Executing ViewResult, running view Index.
+2026-01-04 01:58:12.513 +11:00 [INF] Executed ViewResult - view Index executed in 4.7121ms.
+2026-01-04 01:58:12.514 +11:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb) in 15.807ms
+2026-01-04 01:58:12.514 +11:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManagerWeb)'
+2026-01-04 01:58:12.514 +11:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Sat, 03 Jan 2026 14:58:11 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2026-01-04 01:58:12.515 +11:00 [INF] Request finished HTTP/1.1 GET http://localhost:5072/Persons/Index - 200 null text/html; charset=utf-8 17.9386ms

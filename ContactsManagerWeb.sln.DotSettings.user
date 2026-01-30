@@ -1,0 +1,32 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEPPlusLicense_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Faac21ef5d82a4b43a00bb41a191cb01d421a10_003F02_003F86c328ef_003FEPPlusLicense_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFromSqlQueryingEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Fd18418cd95187b727a854402ce183af4eb0f3a161f9ab81a89012ef12c55d57_003FFromSqlQueryingEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AITestOutputHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fb8b10b8247cb413eab5175c26a5956a755a8_003F31_003Ff58328ac_003FITestOutputHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMigration_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F0b6929381de14b64b0c388980cb72b6e20b648_003F2e_003Fc6ed6cd3_003FMigration_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AModelBuilder_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Fa57f2326e1637161a74aeadb83d8b887739f8337a2a261efe868f1338bb9c_003FModelBuilder_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ASerilogHostBuilderExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Ff2b8a46bf24c74c73aeaf1a3c988c21f4f3c6f9d61ac91902f728a6fac2a7e5_003FSerilogHostBuilderExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AStackFrameIterator_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003F821eadf8c89b36691b3def72d04889d8d4cd791563a97558876f873a81a1a085_003FStackFrameIterator_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33c33321_002D3f3e_002D4588_002D9a47_002D280dd6d8e77f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsServiceTest.AddPerson_NullPerson&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsServiceTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.CountriesServiceTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsControllerTest.Index_ShouldReturnIndexViewWithPersonsList&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsControllerTest.Create_InfoModelErrors_ShouldReturnCreateView&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsControllerTest.Create_IfNoModelErrors_ShouldRedirectToIndex&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsControllerIntegrationTest.Index_ToReturnView&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6b78e53f_002Dd6d0_002D42d8_002Da756_002D346c226f4ba6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PersonsServiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsServiceTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.CountriesServiceTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.PersonsControllerIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a6238956_002Dc0cd_002D4ad7_002Da159_002D8c258822f761/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddCountry_CountryNameIsNull" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3A9A9663-AEBE-4C18-913C-7D91C951F50D::net9.0::CRUDTests.CountriesServiceTest.AddCountry_CountryNameIsNull&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

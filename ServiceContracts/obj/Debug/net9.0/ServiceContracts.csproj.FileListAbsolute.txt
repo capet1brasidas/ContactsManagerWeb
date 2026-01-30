@@ -1,0 +1,15 @@
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/bin/Debug/net9.0/ServiceContracts.deps.json
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/bin/Debug/net9.0/ServiceContracts.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/bin/Debug/net9.0/ServiceContracts.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/bin/Debug/net9.0/Entities.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/bin/Debug/net9.0/Entities.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.csproj.AssemblyReference.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.AssemblyInfoInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.AssemblyInfo.cs
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.csproj.CoreCompileInputs.cache
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceC.04662A29.Up2Date
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/refint/ServiceContracts.dll
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ServiceContracts.pdb
+/Users/erikal/RiderProjects/ContactsManagerWeb/ServiceContracts/obj/Debug/net9.0/ref/ServiceContracts.dll
