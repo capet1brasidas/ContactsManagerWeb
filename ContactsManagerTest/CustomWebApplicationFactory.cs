@@ -30,6 +30,9 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program>
               {
                   services.Remove(descripter);
               }
+              // Remove the app's real database provider (e.g., Npgsql) registrations
+              services.RemoveAll(typeof(DbContextOptions<ApplicationDbContext>));
+              services.RemoveAll(typeof(ApplicationDbContext));
               services.AddDbContext<ApplicationDbContext>(options =>
               {
                   options.UseInMemoryDatabase("DatbaseForTesting");
