@@ -71,6 +71,17 @@ namespace CRUDExample.Controllers
 
       return View(sortedPersons); //Views/Persons/Index.cshtml
     }
+    
+    //API endpoint: returns all persons as JSON
+    //Url: /persons/getall
+    [HttpGet]
+    [Route("GetAll")]
+    public async Task<IActionResult> GetAll()
+    {
+      List<PersonResponse> persons = await _personsService.GetAllPersons();
+      return Json(persons);
+    }
+
 
 
     //Executes when the user clicks on "Create Person" hyperlink (while opening the create view)

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ServiceContracts;
+using ServiceContracts.DTO;
 
 namespace CRUDExample.Controllers;
 
@@ -20,6 +21,15 @@ public class CountriesController: Controller
 
 
         return View();
+    }
+
+    [HttpGet]
+    [Route("GetAllCountries")]
+    public async Task<IActionResult> GetAllCountries()
+    {
+        List<CountryResponse> countries =await _countriesService.GetAllCountries();
+        
+        return Json(countries);
     }
 
     [HttpPost]
